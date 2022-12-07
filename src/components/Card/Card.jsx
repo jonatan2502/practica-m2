@@ -8,7 +8,7 @@ export default function Card (props) {
             <p>ID: {props.id}</p>
             <p>Title: {props.title}</p>
             <p>Content: {props.content}</p>
-            <p>User: {props.userId}</p>
+            <p>User: {props.user}</p>
         </div>
     )
 }

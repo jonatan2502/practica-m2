@@ -7,7 +7,7 @@ import Styles from './Cards.module.css'
 export default function Cards(props) {
     const dispatch = useDispatch()
     const posts = useSelector( state => state.allPosts)
-
+console.log(posts)
     useEffect(() => {
         dispatch(getAllPosts())
     }, [])
